@@ -1,0 +1,31 @@
+.all_header {
+  display: flex;
+  background-color: rgb(54, 55, 56);
+  border: 1px solid black;
+  height: fit-content;
+  color: beige;
+}
+
+.logo_header {
+  border: 1 px solid rgb(255, 0, 0);
+  padding: 5px;
+}
+
+.titles {
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-left: 14rem;
+}
+
+.title1 {
+  font-size: 12px;
+  letter-spacing: 1pt;
+}
+.title2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.big_title {
+  border: 1 px solid orangered;
+}

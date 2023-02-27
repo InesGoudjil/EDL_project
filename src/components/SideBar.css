@@ -1,0 +1,19 @@
+.sidebar_all {
+    height: 520px;
+    width: 20%;
+    position: absolute;
+    /* z-index: 1; */
+    /* top: 0; */
+    /* left: 0; */
+    background-color: rgb(237, 231, 231);
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+  }
+  
+  .sidebar_all a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+  }

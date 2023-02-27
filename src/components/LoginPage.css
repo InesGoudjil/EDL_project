@@ -1,0 +1,40 @@
+.all_loginpage{
+    text-align: center;
+    /* border: 1px solid saddlebrown; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center; */
+}
+
+
+
+.form_login{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 500px;
+    background-color: rgb(211, 222, 223);
+    
+    
+}
+
+.div_section{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: fit-content;
+}
