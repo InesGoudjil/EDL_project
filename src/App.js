@@ -1,16 +1,14 @@
 import './App.css';
-import LoginPage from './components/LoginPage.js';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import SideBar from './components/SideBar';
+import  Container  from './components/Container';
+import HomeAdmin from './components/Administrateur/HomeAdmin';
+import GestionCpt from './components/Administrateur/GestionCpt';
 
 function App() {
   return (
     <div className='App'>
-      <Header></Header>
-      <SideBar></SideBar>
-      <LoginPage></LoginPage>
-      <Footer></Footer>
+      {/* <Container></Container> */}
+      {/* <HomeAdmin></HomeAdmin> */}
+      <GestionCpt></GestionCpt>
     </div>
   );
 }

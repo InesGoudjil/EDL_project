@@ -1,0 +1,6 @@
+git add --all
+git commit -m "frfef"
+git push
+
+9bl ma nbda nkhdm ndir 
+git pull

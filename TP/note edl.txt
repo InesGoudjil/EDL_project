@@ -1,0 +1,59 @@
+president CFD:
+affecter un ensemble d’enseignants pour la correction des copies des examens des candidats
+affichage de la liste des candidats avec leurs moyennes finales
+
+condidat:
+consulter toutes informations partagées par le vice-doyen
+
+vice-doyen:
+partager des informations nécessaires sur le déroulement du  concours
+générer des codes pour la préservation de l’anonymat des candidats présents lors du concours
+
+enseignant:
+accéder aux notes
+envoi ces notes au président du CFD
+
+admin:
+creation des comptes utilisateurs pour tous le monde
+
+*************************************************************
+
+analyse du domaine:
+domaine:education superieure
+concepts:
+gestion des condidats
+gestion des données(les informations personnelles, les notes, infos concours...)
+gestion des corrections(affectation des enseigants)
+affichage des listes des notes
+
+7sab note
+chaque copie ycorigiha 2 ens (ychoufou la note lkbira)
+koun tkoun la diff >3 ydirou 3eme correction(ydir la moyenne ta3 lograb)
+koun tkoun la mm distance yhaz zouj lokbar
+koun ens 3ando gdah ya9dr ya7km n copies
+
+acteurs:
+enseigant
+condidat
+president CFD
+admin
+vice-doyen
+
+BF:
+*gestion des utilisateurs
+*gestion du déroulement de concours
+*gestion d'inscription des condidats
+*accées aux données partagées
+*partage des informations nécessaires sur le déroulement du concours
+*gestion des codes pour le préservation de l'anonymat  des condidats présents lors du concours
+*gestion des corrections des copies
+*gestion des enseigants
+*calcul de la moyenne finale des condidats
+*affichage des résultats finales (liste des condidats + ses notes)
+*envoi des notes au président CFD
+
+BNF:
+*Interface conviviale
+*Facile à utiliser
+*Fiabilité et robustesse 
+*Application sécurisée (Informations Personnels)

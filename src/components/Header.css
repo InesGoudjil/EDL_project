@@ -1,20 +1,21 @@
 .all_header {
+  position: fixed;
   display: flex;
-  background-color: rgb(54, 55, 56);
-  border: 1px solid black;
+  background-color: #001420;
   height: fit-content;
-  color: beige;
+  color: white;
+  width: 100%;
+  z-index: 1;
 }
 
 .logo_header {
   border: 1 px solid rgb(255, 0, 0);
   padding: 5px;
+
 }
 
 .titles {
-  margin: 0 auto;
-  margin-left: 10px;
-  margin-left: 14rem;
+  padding-left: 4%;
 }
 
 .title1 {

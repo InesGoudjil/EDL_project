@@ -1,40 +1,93 @@
-.all_loginpage{
-    text-align: center;
-    /* border: 1px solid saddlebrown; */
-    width: fit-content;
-    margin-left: auto;
+.all_loginpage {
+  text-align: center;
+  /* border: 1px solid saddlebrown; */
+  display: flex;
+  flex-direction: row;
+
+  width: 850px;
+  height: 400px;
+
+  /* margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    border: none;
-    border-radius: 10px;
-    background-color: antiquewhite;
-    
-    /* display: flex;
+    margin-top: 5%; */
+  /* border: none;
+    border-radius: 10px ; */
+  /* background-image: url('./bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+  /* display: flex;
     justify-content: center;
     flex-direction: column;
     align-content: center; */
+
+  /* box-shadow: 3px 2px px 1px rgba(255,255,255,0.1); */
 }
 
+.form_login {
+  text-align: center;
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
 
-
-.form_login{
-    border: 1px solid;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    text-align: center;
-    width: 500px;
-    background-color: rgb(211, 222, 223);
-    
-    
+  border-radius: 0px 25px 25px 0px;
 }
 
-.div_section{
-    border: 1px solid red;
-    padding: 10px;
+.input_section {
+  /* border: 1px solid red; */
+  /* padding: 10px;
     margin: 10px auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: fit-content;
+    width: fit-content; */
+
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salutation {
+  width: 50%;
+  background-color: #072030;
+  color: white;
+  background-image: url("./books.jpg");
+  background-size: cover;
+
+  border-radius: 25px 0px 0px 25px;
+}
+
+.inp {
+  width: 300px;
+}
+
+.btn {
+  height: 50px;
+  width: 215px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: box-shadow .2s ease-in-out;
+  cursor: pointer;
+  background-color: #001420;
+  color: white;
+
+}
+
+.btn:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
+}
+
+.btn:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);
 }

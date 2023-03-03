@@ -1,27 +1,64 @@
 import React from "react";
 import "./LoginPage.css";
 
-function loginPage() {
+import { useState } from "react";
+
+import { TextField } from "@mui/material";
+
+function LoginPage() {
+  const [name, setName] = useState();
+  const [password, setPassword] = useState();
+
+  function handleName(event) {
+    setName(event.target.value);
+    console.log(event.target.value);
+  }
+
+  function handlePassword(event) {
+    setPassword(event.target.value);
+    console.log(event.target.value);
+  }
   return (
     <div className="all_loginpage">
-        <h1>Bienvenue</h1>
-        <h3>ACCEDER A VOTRE COMPTE</h3>
+      <div className="salutation"></div>
       <form className="form_login">
-        <div className="div_section">
-          <label className="lbl">Nom d'Utilisateur:</label>
-          <br />
-          <input className="inp" type="text" placeholder="nom d'utilisateur" />
+        <div className="input_section">
+          <TextField
+            id="standard-basic"
+            className="inp"
+            label="Nom d'Utilisateur"
+            variant="standard"
+            defaultValue={name}
+            onChange={(event) => {
+              handleName(event);
+            }}
+          />
         </div>
 
-        <div className="div_section">
-          <label className="lbl">Mot de Passe:</label>
-          <br />
-          <input className="inp" type="text" placeholder="mot de passe" />
+        <div className="input_section">
+          <TextField
+            id="standard-basic"
+            className="inp"
+            label="Mot de Passe"
+            variant="standard"
+            type="password"
+            defaultValue={password}
+            onChange={(event) => {
+              handlePassword(event);
+            }}
+          />
         </div>
-        <button type="submit">Se Connecter</button>
+        <div className="input_section">
+          <button className="btn" type="submit">
+            Se Connecter
+          </button>
+        </div>
+        <div className="input_section">
+          <a href="" target='_blanc'>Mot de passe oublié ?</a>
+        </div>
       </form>
     </div>
   );
 }
 
-export default loginPage;
+export default LoginPage;
