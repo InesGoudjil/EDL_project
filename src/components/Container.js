@@ -9,6 +9,9 @@ import Footer from "./Footer";
 function Container() {
   return (
     <div className="container">
+      <div>
+        A Propos
+      </div>
       <LoginPage></LoginPage>
     </div>
   );

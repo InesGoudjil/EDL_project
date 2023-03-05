@@ -5701,11 +5701,11 @@
 											},
 											"fillColor": "#ffa3ff",
 											"font": "Arial;20;1",
-											"left": 2863.5,
+											"left": 2864,
 											"top": 3593,
-											"width": 155,
+											"width": 156,
 											"height": 20,
-											"text": "Pour cice-doyen"
+											"text": "Pour Vice-doyen"
 										},
 										{
 											"_type": "LabelView",
@@ -5739,9 +5739,9 @@
 									],
 									"fillColor": "#ffa3ff",
 									"font": "Arial;20;0",
-									"left": 2858.5,
+									"left": 2859,
 									"top": 3586,
-									"width": 165.595703125,
+									"width": 167.451171875,
 									"height": 32,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGGj2rpr02Y1XA="
@@ -5847,7 +5847,7 @@
 							"containerChangeable": true,
 							"left": 2824,
 							"top": 3580,
-							"width": 234,
+							"width": 236,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAGGj2rpr02XYxY="
@@ -6196,7 +6196,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 2881,
+									"left": 2882,
 									"top": 3502,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6217,7 +6217,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 2867,
+									"left": 2868,
 									"top": 3508,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -6238,7 +6238,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 2908,
+									"left": 2909,
 									"top": 3489,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -6258,7 +6258,7 @@
 								"$ref": "AAAAAAGGj2rpr02WMVY="
 							},
 							"lineStyle": 1,
-							"points": "2930:3579;2861:3425",
+							"points": "2931:3579;2861:3425",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGGj2uhsWXUTrs="
@@ -11565,11 +11565,11 @@
 											},
 											"fillColor": "#ffa3ff",
 											"font": "Arial;20;1",
-											"left": 2934.5,
+											"left": 2935,
 											"top": 3983,
-											"width": 155,
+											"width": 156,
 											"height": 20,
-											"text": "Pour cice-doyen"
+											"text": "Pour Vice-doyen"
 										},
 										{
 											"_type": "LabelView",
@@ -11603,9 +11603,9 @@
 									],
 									"fillColor": "#ffa3ff",
 									"font": "Arial;20;0",
-									"left": 2929.5,
+									"left": 2930,
 									"top": 3976,
-									"width": 165.595703125,
+									"width": 167.451171875,
 									"height": 32,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGGlIFEww9HBRk="
@@ -11711,7 +11711,7 @@
 							"containerChangeable": true,
 							"left": 2895,
 							"top": 3970,
-							"width": 234,
+							"width": 236,
 							"height": 45,
 							"nameCompartment": {
 								"$ref": "AAAAAAGGlIFEww9Gjko="
@@ -12774,7 +12774,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 2977,
+									"left": 2978,
 									"top": 3895,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -12795,7 +12795,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 2962,
+									"left": 2963,
 									"top": 3898,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -12816,7 +12816,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 3006,
+									"left": 3007,
 									"top": 3890,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -12835,7 +12835,7 @@
 								"$ref": "AAAAAAGGlIFEww9Fnl0="
 							},
 							"lineStyle": 1,
-							"points": "3006:3969;2978:3829",
+							"points": "3007:3969;2979:3829",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGGlJ60MDycsCc="
@@ -14859,7 +14859,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGGj1Ls9cO1izs="
 					},
-					"name": "Pour cice-doyen",
+					"name": "Pour Vice-doyen",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",
