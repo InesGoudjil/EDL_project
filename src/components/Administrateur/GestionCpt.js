@@ -12,12 +12,12 @@ function GestionCpt() {
       {/* <div className="title">
         <h2>Gestion des comptes:</h2>
       </div> */}
-        <div className="ajout">
-          <div className="ajout_sec">
-            <h3>Ajout des comptes</h3>
+        <div className="section">
+          <div className="section_inside">
+            <h3 className="ajo">Ajout des comptes</h3>
           </div>
-          <div>
-          <select className="ajout_sec">
+          <div className="section_inside">
+          <select>
             <option value="">Pour Enseignant</option>
             <option value="">Pour Condidat</option>
             <option value="">Pour Vice-doyen</option>
@@ -27,12 +27,12 @@ function GestionCpt() {
           </div>
           
         </div>
-        <div className="suppression">
-          <div className="suppression_sec">
-            <h3>Suppression des comptes</h3>
+        <div className="section">
+          <div className="section_inside">
+            <h3 className="sup">Suppression des comptes</h3>
           </div>
-          <div>
-          <select className="suppression_sec">
+          <div className="section_inside">
+          <select>
             <option value="">Pour Enseignant</option>
             <option value="">Pour Condidat</option>
             <option value="">Pour Vice-doyen</option>
