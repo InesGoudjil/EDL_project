@@ -13,7 +13,7 @@
     color: white;
 } */
 .section{
-  border: 3px dotted black;
+  border: 3px dotted #000d15;
   display: flex;
   justify-content: center;
   align-items: center;

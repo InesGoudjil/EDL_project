@@ -6,16 +6,16 @@ import { useState } from "react";
 import { TextField } from "@mui/material";
 
 function LoginPage() {
-  const [name, setName] = useState();
-  const [password, setPassword] = useState();
+  const [nom, setNom] = useState();
+  const [mdp, setMdp] = useState();
 
-  function handleName(event) {
-    setName(event.target.value);
+  function handleNom(event) {
+    setNom(event.target.value);
     console.log(event.target.value);
   }
 
-  function handlePassword(event) {
-    setPassword(event.target.value);
+  function handleMdp(event) {
+    setMdp(event.target.value);
     console.log(event.target.value);
   }
   return (
@@ -28,9 +28,9 @@ function LoginPage() {
             className="inp"
             label="Nom d'Utilisateur"
             variant="standard"
-            defaultValue={name}
+            defaultValue={nom}
             onChange={(event) => {
-              handleName(event);
+              handleNom(event);
             }}
           />
         </div>
@@ -42,9 +42,9 @@ function LoginPage() {
             label="Mot de Passe"
             variant="standard"
             type="password"
-            defaultValue={password}
+            defaultValue={mdp}
             onChange={(event) => {
-              handlePassword(event);
+              handleMdp(event);
             }}
           />
         </div>

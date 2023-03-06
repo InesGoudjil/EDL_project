@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function Container() {
   return (
     <div className="container">
-      <div>
+      <div className="about">
         A Propos
       </div>
       <LoginPage></LoginPage>
