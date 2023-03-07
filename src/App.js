@@ -6,6 +6,7 @@ import AjouterEnsVice from './components/Administrateur/AjouterEnsVice';
 import AjouterCandidat from './components/Administrateur/AjouterCandidat';
 import AjouterCFD from './components/Administrateur/AjouterCFD';
 import AjouterAdmin from './components/Administrateur/AjouterAdmin';
+import Suppression from './components/Administrateur/Suppression';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       {/* <GestionCpt /> */}
       {/* <AjouterEnsVice /> */}
       {/* <AjouterCandidat /> */}
-      <AjouterCFD />
+      {/* <AjouterCFD /> */}
       {/* <AjouterAdmin /> */}
+      <Suppression />
     </div>
   );
 }

@@ -29,9 +29,9 @@ function GestionCpt() {
         </div>
         <div className="section">
           <div className="section_inside">
-            <h3 className="sup">Suppression des comptes</h3>
+            <h3 className="sup"><a href="#">Suppression des comptes</a></h3>
           </div>
-          <div className="section_inside">
+          {/* <div className="section_inside">
           <select>
             <option value="">Pour Enseignant</option>
             <option value="">Pour Condidat</option>
@@ -39,7 +39,7 @@ function GestionCpt() {
             <option value="">Pour Président CFD</option>
             <option value="">Pour Administrateur</option>
           </select>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
