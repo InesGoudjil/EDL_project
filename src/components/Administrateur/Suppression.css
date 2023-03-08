@@ -12,7 +12,7 @@
   align-items: center;
   height: fit-content;
   flex-direction: column;
-  border: 3px solid white;
+  /* border: 3px solid white; */
 }
 /* .pick {
 } */
@@ -22,8 +22,11 @@
   align-items: center;
 }
 .pick_inside_select {
-  background-color: aqua;
+  background-color: #072030;
   border-radius: 10px;
+  height: 75px;
+  color: white;
+  font-size: 20px;
 }
 .supr {
   font-family: Arial, Helvetica, sans-serif;
@@ -51,4 +54,27 @@
   text-align: left;
   background-color: teal;
   color: white;
+}
+.supbtn{
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: box-shadow .2s ease-in-out;
+  cursor: pointer;
+  background-color: #001420;
+  color: white;
+}
+
+.supbtn:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
+}
+
+.supbtn:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);
 }
