@@ -4,14 +4,12 @@
   /* border: 1px solid green; */
 
   /* background-color: #001a2a; */
-  background-image: linear-gradient(
+   background-image: linear-gradient(
     to right top,
-    #000d15,
-    #001420,
-    #001a2a,
-    #334753,
-    #65747B
-  );
+    #43475c,
+    #bedded
+  ); 
+  background-color: white;
 }
 
 .App-logo {

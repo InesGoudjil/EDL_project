@@ -6,9 +6,9 @@ import Header from "../Header";
 function Suppression() {
   return (
     <div className="supp_all">
-      {/* <Header></Header> */}
+      <Header></Header>
       <div className="containerr_">
-        <select className="pick_inside">
+        <select className="pick_inside_select">
           <option>Supprimer compte pour:</option>
           <option value="">Pour Enseignant</option>
           <option value="">Pour Condidat</option>
@@ -28,67 +28,89 @@ function Suppression() {
               <td>Alfreds Futterkiste</td>
               <td>Maria Anders</td>
               <td>Germany</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Centro comercial Moctezuma</td>
               <td>Francisco Chang</td>
               <td>Mexico</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
               <td>Sweden</td>
-              <td><button>Supprimer le compte</button></td>
+              <td>
+                <button>Supprimer le compte</button>
+              </td>
             </tr>
           </table>
         </div>
