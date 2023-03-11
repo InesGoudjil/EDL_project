@@ -1,10 +1,11 @@
 import React from "react";
+import HeadSide from "../HeadSide";
 import "./Suppression.css";
 
-import Header from "../Header";
 
 function Suppression() {
   return (
+    <HeadSide>
     <div className="supp_all">
       {/* <Header></Header> */}
       <div className="containerr_">
@@ -68,6 +69,7 @@ function Suppression() {
         </div>
       </div>
     </div>
+    </HeadSide>
   );
 }
 

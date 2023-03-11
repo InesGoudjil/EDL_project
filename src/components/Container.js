@@ -9,9 +9,9 @@ import Footer from "./Footer";
 function Container() {
   return (
     <div className="container">
-      <div className="about">
+      {/* <div className="about">
         A Propos
-      </div>
+      </div> */}
       <LoginPage></LoginPage>
     </div>
   );

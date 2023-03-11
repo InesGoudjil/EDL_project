@@ -1,15 +1,17 @@
 import React from "react";
 import './HomeAdmin.css';
-import Header from "../Header";
-import SideBar from "../SideBar";
+
+import HeadSide from "../HeadSide";
 
 function HomeAdmin(){
     return(
+      <HeadSide>
         <div className="container_">
-          <Header></Header>
-          <SideBar></SideBar>
+        
+        
           dezdzdz
         </div>
+        </HeadSide>
     );
 }
 
