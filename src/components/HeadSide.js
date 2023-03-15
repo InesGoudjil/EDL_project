@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeadSide.css";
 import "./Header.css";
 import logo from "./headericon.png";
 // import Header from "./Header";
@@ -10,7 +11,7 @@ import { FiUsers } from "react-icons/fi";
 
 function HeadSide({ children }) {
   return (
-    <div>
+    <div className="containerrr">
       <div className="all_header">
         <div className="class">
           <img className="logo_header" src={logo} alt="logo" />

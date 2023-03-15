@@ -9,7 +9,8 @@ function Suppression() {
     <div className="supp_all">
       {/* <Header></Header> */}
       <div className="containerr_">
-        <select className="pick_inside_select">
+       <div className="selecter">
+       <select className="pick_inside_select">
           <option>Supprimer compte pour:</option>
           <option value="">Pour Enseignant</option>
           <option value="">Pour Condidat</option>
@@ -17,6 +18,7 @@ function Suppression() {
           <option value="">Pour Président CFD</option>
           <option value="">Pour Administrateur</option>
         </select>
+       </div>
         <div className="pick_inside">
           <table className="supr">
             <tr>
@@ -25,14 +27,7 @@ function Suppression() {
               <th>Date de création</th>
               <th>Suppression</th>
             </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-              <td>
-                <button className="supbtn">Supprimer le compte</button>
-              </td>
-            </tr>
+            
             <tr>
               <td>Berglunds snabbköp</td>
               <td>Christina Berglund</td>
@@ -58,13 +53,39 @@ function Suppression() {
               </td>
             </tr>
             <tr>
-              <td>Berglunds snabbköp</td>
-              <td>Christina Berglund</td>
-              <td>Sweden</td>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
               <td>
                 <button className="supbtn">Supprimer le compte</button>
               </td>
             </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+              <td>
+                <button className="supbtn">Supprimer le compte</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+              <td>
+                <button className="supbtn">Supprimer le compte</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+              <td>
+                <button className="supbtn">Supprimer le compte</button>
+              </td>
+            </tr>
+         
+          
           </table>
         </div>
       </div>
