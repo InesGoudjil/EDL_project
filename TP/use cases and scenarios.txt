@@ -1,5 +1,0 @@
-Président CFD = Affecter un ensemble d’enseignants pour la correction des copies
-Enseignant = Corriger les copies  données
-Condidat = Consulter les Informations partagées par le vice-doyen
-Vice-doyen = Partager des informations nécessaires sur le déroulement du  concours
-Administrateur = Supprimer un Compte
