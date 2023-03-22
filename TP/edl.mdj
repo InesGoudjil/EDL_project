@@ -19909,99 +19909,6 @@
 						},
 						{
 							"_type": "UMLGeneralizationView",
-							"_id": "AAAAAAGG13wsy36emFk=",
-							"_parent": {
-								"$ref": "AAAAAAGGnu40d/A2lEM="
-							},
-							"model": {
-								"$ref": "AAAAAAGG13wsy36cyvg="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGG13wsy36flt4=",
-									"_parent": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"model": {
-										"$ref": "AAAAAAGG13wsy36cyvg="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1285,
-									"top": 1375,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGG13wsy36ghi0=",
-									"_parent": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"model": {
-										"$ref": "AAAAAAGG13wsy36cyvg="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 1285,
-									"top": 1360,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGG13wsy36hc6M=",
-									"_parent": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"model": {
-										"$ref": "AAAAAAGG13wsy36cyvg="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 1285,
-									"top": 1405,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGG13wsy36emFk="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAGG12Lk/vy/XNM="
-							},
-							"tail": {
-								"$ref": "AAAAAAGG12J+jPxpZv4="
-							},
-							"points": "1285:1520;1285:1396;1472:1396",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAGG13wsy36flt4="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAGG13wsy36ghi0="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAGG13wsy36hc6M="
-							}
-						},
-						{
-							"_type": "UMLGeneralizationView",
 							"_id": "AAAAAAGG13xAGX6vXdM=",
 							"_parent": {
 								"$ref": "AAAAAAGGnu40d/A2lEM="
@@ -20022,7 +19929,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1452,
-									"top": 1119,
+									"top": 1091,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -20043,7 +19950,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 1452,
-									"top": 1104,
+									"top": 1076,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -20064,7 +19971,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1452,
-									"top": 1149,
+									"top": 1121,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -20081,7 +19988,7 @@
 							"tail": {
 								"$ref": "AAAAAAGG12KxtPyUhi0="
 							},
-							"points": "1264:1140;1640:1140",
+							"points": "1264:1112;1640:1112",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGG13xAGX6wO2E="
@@ -23732,9 +23639,9 @@
 														"$ref": "AAAAAAGHAkIaCxD9QMs="
 													},
 													"font": "Arial;16;0",
-													"left": 27.8984375,
+													"left": 25.2265625,
 													"top": 5,
-													"width": 468.5390625,
+													"width": 422.328125,
 													"height": 16,
 													"text": "Affecter un ensemble d’enseignants pour la correction des copies "
 												},
@@ -23747,7 +23654,7 @@
 													"font": "Arial;16;1",
 													"left": 5,
 													"top": 5,
-													"width": 17.8984375,
+													"width": 15.2265625,
 													"height": 16,
 													"text": "sd"
 												}
@@ -25371,9 +25278,9 @@
 														"$ref": "AAAAAAGHAmwP+xYLovM="
 													},
 													"font": "Arial;16;0",
-													"left": 27.8984375,
+													"left": 25.2265625,
 													"top": 5,
-													"width": 128.7734375,
+													"width": 117.546875,
 													"height": 16,
 													"text": "Affecter les notes "
 												},
@@ -25386,7 +25293,7 @@
 													"font": "Arial;16;1",
 													"left": 5,
 													"top": 5,
-													"width": 17.8984375,
+													"width": 15.2265625,
 													"height": 16,
 													"text": "sd"
 												}
@@ -26508,9 +26415,9 @@
 														"$ref": "AAAAAAGHAnUAOBcsuuc="
 													},
 													"font": "Arial;16;0",
-													"left": 27.8984375,
+													"left": 25.2265625,
 													"top": 5,
-													"width": 393.203125,
+													"width": 355.1015625,
 													"height": 16,
 													"text": "Consulter les Informations partagées par le vice-doyen "
 												},
@@ -26523,7 +26430,7 @@
 													"font": "Arial;16;1",
 													"left": 5,
 													"top": 5,
-													"width": 17.8984375,
+													"width": 15.2265625,
 													"height": 16,
 													"text": "sd"
 												}
@@ -27270,9 +27177,9 @@
 														"$ref": "AAAAAAGHAn0BkxhBz2M="
 													},
 													"font": "Arial;16;0",
-													"left": 27.8984375,
+													"left": 25.2265625,
 													"top": 5,
-													"width": 157.515625,
+													"width": 143.2109375,
 													"height": 16,
 													"text": "Supprimer un Compte"
 												},
@@ -27285,7 +27192,7 @@
 													"font": "Arial;16;1",
 													"left": 5,
 													"top": 5,
-													"width": 17.8984375,
+													"width": 15.2265625,
 													"height": 16,
 													"text": "sd"
 												}
@@ -28909,9 +28816,9 @@
 														"$ref": "AAAAAAGHApRgZl1TzP0="
 													},
 													"font": "Arial;16;0",
-													"left": 27.8984375,
+													"left": 25.2265625,
 													"top": 5,
-													"width": 119.2734375,
+													"width": 110.765625,
 													"height": 16,
 													"text": "Consulter Profile"
 												},
@@ -28924,7 +28831,7 @@
 													"font": "Arial;16;1",
 													"left": 5,
 													"top": 5,
-													"width": 17.8984375,
+													"width": 15.2265625,
 													"height": 16,
 													"text": "sd"
 												}

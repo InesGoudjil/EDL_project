@@ -8,11 +8,12 @@ import AjouterCFD from "./components/Administrateur/AjouterCFD";
 import AjouterAdmin from "./components/Administrateur/AjouterAdmin";
 import Suppression from "./components/Administrateur/Suppression";
 import HeadSide from "./components/HeadSide";
+import AppLayout from "./components/AppLayout";
 
-import Layout from "./components/layout";
 function App() {
   return (
     <div className="App">
+      <AppLayout></AppLayout>
       {/* <Container /> */}
       {/* <HomeAdmin /> */}
       {/* <GestionCpt /> */}
@@ -20,7 +21,7 @@ function App() {
       {/* <AjouterCandidat /> */}
       {/* <AjouterCFD /> */}
       {/* <AjouterAdmin /> */}
-        <Suppression />
+        {/* <Suppression /> */}
         {/* <Layout></Layout> */}
     </div>
   );
