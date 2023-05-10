@@ -1,13 +1,13 @@
-.addingcfdformcontainer {
+.addingetuformcontainer {
   width: 100%;
   height: 100vh;
   background: linear-gradient(90deg, #334753 0%, #65747b 10%, #ffffff 120%);
   position: fixed;
 }
 
-.addingcfdform {
+.addingetuform {
   width: 50%;
-  height: 90vh;
+  height: 95vh;
   background-color: white;
   display: flex;
   align-items: center;
@@ -20,43 +20,43 @@
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.contcfd {
+.contat {
   /* border: 1px solid; */
 }
-.compcfd {
+.compat {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.pcfd {
+.pat {
   font-size: 22px;
   margin: 0;
 }
-.iconcfd {
+.iconat {
   width: 60px;
   height: 60px;
   color: #001420;
 }
-.linecfd {
+.lineat {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.cfdsection {
+.atsection {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
   /* border: 1px solid black; */
 }
-.datecfd {
+.dateat {
   width: 195px;
   /* margin: 10px; */
 }
-.cfd {
+.at {
   width: 200px;
 }
-.btncfd {
+.btnat {
   margin: 5%;
   height: 50px;
   width: 200px;
@@ -68,13 +68,13 @@
   background-color: #001420;
   color: white;
 }
-.btncfd:not([disabled]):focus {
+.btnat:not([disabled]):focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
 }
 
-.btncfd:not([disabled]):hover {
+.btnat:not([disabled]):hover {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);

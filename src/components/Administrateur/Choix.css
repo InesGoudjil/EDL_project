@@ -1,8 +1,8 @@
-.allHomeAdmin {
+.allChoixAdmin {
   margin: 0;
   padding: 0;
 }
-.headHomeAdmin {
+.headChoixAdmin {
   /* border: 1px solid black; */
   background: rgb(0, 20, 32);
   background: linear-gradient(
@@ -16,35 +16,35 @@
   height: 8vh;
   padding: 0.75%;
 }
-.headHomeAdmin p {
+.headChoixAdmin p {
   font-size: 15px;
 }
-.headbarHomeAdmin {
+.headbarChoixAdmin {
   text-align: center;
   background-color: #d4dcdf;
 }
-.childa {
+.childc {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid black; */
 }
-.child1a {
+.child1c {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid #001420;
-  border-left: 1px solid #001420; */
+    border-left: 1px solid #001420; */
 }
-.headbarHomeAdmin a {
+.headbarChoixAdmin a {
   text-decoration: none;
   color: #001420;
 }
 
 /* .bodyHomeAdmin {
-  border: 1px solid green;
-} */
-.titlea {
+    border: 1px solid green;
+  } */
+.titlec {
   text-align: center;
   font-size: 20px;
   letter-spacing: 1px;
@@ -60,35 +60,34 @@
   color: white;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 350px;
   border-radius: 15px 15px 15px 15px;
 }
-.iconStylea {
+.iconStylec {
   height: 25px;
   width: 25px;
   margin-right: 5px;
 }
-.iconStyle1a {
+.iconStyle1c {
   height: 25px;
   width: 25px;
   margin-left: 5px;
 }
-.bigIconStylea {
+.bigIconStylec {
   height: 40px;
   width: 40px;
   margin-left: 5px;
   margin-right: 10px;
 }
-.gesa {
+.gesc {
   text-align: center;
 }
-.herea {
+.herec {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   padding: 1rem 1rem;
-  width: 200px;
-  /* background-color: #001420; */
+  background: rgb(0, 20, 32);
   background: linear-gradient(
     90deg,
     rgba(0, 20, 32, 1) 0%,
@@ -101,11 +100,11 @@
   color: white;
   width: 400px;
 }
-.herea a {
+.herec a {
   text-decoration: none;
   color: white;
 }
-.footerHomeAdmin {
+.footerChoixAdmin {
   text-align: center;
   background-color: #d4dcdf;
 

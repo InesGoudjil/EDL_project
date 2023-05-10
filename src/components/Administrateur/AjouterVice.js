@@ -1,5 +1,5 @@
 import React from "react";
-import "./AjouterCfd.css";
+import "./AjouterVice.css";
 import { ImUserPlus } from "react-icons/im";
 import Select from "react-select";
 import { TextField } from "@mui/material";
@@ -7,28 +7,13 @@ import axios from "axios";
 import { BiAddToQueue } from "react-icons/bi";
 import { useState } from "react";
 
-function AjouterCfd() {
-  const optionsmod = [
-    { value: "edl", label: "EDL" },
-    { value: "svs", label: "SVS" },
-    { value: "tml", label: "TML" },
-  ];
-
-  const optionsspec = [
-    { value: "spec1", label: "SPEC1" },
-    { value: "spec2", label: "SPEC2" },
-    { value: "spec3", label: "SPEC3" },
-  ];
-
+function AjouterVice() {
   const [nom, setNom] = useState();
   const [prenom, setPrenom] = useState();
   const [dns, setDns] = useState();
   const [email, setEmail] = useState();
-  const [module, setModule] = useState();
-  const [specialite, setSpecialite] = useState();
   const [nom_util, setNom_util] = useState();
   const [mdp, setMdp] = useState();
-  const [tel, setTel] = useState();
 
   function handleNom(event) {
     setNom(event.target.value);
@@ -46,18 +31,7 @@ function AjouterCfd() {
     setEmail(event.target.value);
     console.log(event.target.value);
   }
-  function handleTel(event) {
-    setTel(event.target.value);
-    console.log(event.target.value);
-  }
-  //   function handleModule(event) {
-  //     setModule(event.target.value);
-  //     console.log(event.target.value);
-  //   }
-  //   function handleSpecialite(event) {
-  //     setSpecialite(event.target.value);
-  //     console.log(event.target.value);
-  //   }
+
   function handleNom_util(event) {
     setNom_util(event.target.value);
     console.log(event.target.value);
@@ -68,21 +42,21 @@ function AjouterCfd() {
   }
 
   return (
-    <div className="addcfd">
-      <div className="addingcfdformcontainer">
-        <form className="addingcfdform">
-          <div className="contcfd">
-            <div className="compcfd">
-              <ImUserPlus className="iconcfd" />
+    <div className="addav">
+      <div className="addingviceformcontainer">
+        <form className="addingviceform">
+          <div className="contav">
+            <div className="compav">
+              <ImUserPlus className="iconav" />
             </div>
-            <div className="compcfd">
-              <p className="pcfd">Ajouter Président CFD</p>
+            <div className="compav">
+              <p className="pav">Ajouter Vice-Doyen</p>
             </div>
-            <div className="linecfd">
-              <div className="cfdsection">
+            <div className="lineav">
+              <div className="avsection">
                 <TextField
                   id="standard-basic"
-                  className="cfd"
+                  className="av"
                   label="Nom"
                   variant="standard"
                   defaultValue={nom}
@@ -91,10 +65,10 @@ function AjouterCfd() {
                   }}
                 />
               </div>
-              <div className="cfdsection">
+              <div className="avsection">
                 <TextField
                   id="standard-basic"
-                  className="cfd"
+                  className="av"
                   label="Prénom"
                   variant="standard"
                   defaultValue={prenom}
@@ -104,12 +78,12 @@ function AjouterCfd() {
                 />
               </div>
             </div>
-            <div className="linecfd">
-              <div className="cfdsection">
+            <div className="lineav">
+              <div className="avsection">
                 <TextField
                   type="date"
                   id="standard-basic"
-                  className="datecfd"
+                  className="dateav"
                   variant="standard"
                   defaultValue={dns}
                   onChange={(event) => {
@@ -117,11 +91,11 @@ function AjouterCfd() {
                   }}
                 />
               </div>
-              <div className="cfdsection">
+              <div className="avsection">
                 <TextField
                   type="email"
                   id="standard-basic"
-                  className="cfd"
+                  className="av"
                   label="@ E-mail"
                   variant="standard"
                   defaultValue={email}
@@ -131,35 +105,11 @@ function AjouterCfd() {
                 />
               </div>
             </div>
-            {/* <div className="linecfd">
-              <div className="cfdsection">
-                <Select
-                  placeholder="Module"
-                  options={optionsmod}
-                  className="cfd"
-                  defaultValue={optionsmod}
-                  //   onChange={(event) => {
-                  //     handleModule(event);
-                  //   }}
-                />
-              </div>
-              <div className="cfdsection">
-                <Select
-                  placeholder="Spécialité"
-                  options={optionsspec}
-                  className="cfd"
-                  defaultValue={optionsspec}
-                  //   onChange={(event) => {
-                  //     handleSpecialite(event);
-                  //   }}
-                />
-              </div>
-            </div> */}
-            <div className="linecfd">
-              <div className="cfdsection">
+            <div className="lineav">
+              <div className="avsection">
                 <TextField
                   id="standard-basic"
-                  className="cfd"
+                  className="ae"
                   label="Nom d'utilisateur"
                   variant="standard"
                   defaultValue={nom_util}
@@ -168,10 +118,10 @@ function AjouterCfd() {
                   }}
                 />
               </div>
-              <div className="cfdsection">
+              <div className="avsection">
                 <TextField
                   id="standard-basic"
-                  className="cfd"
+                  className="av"
                   label="Mot de passe"
                   variant="standard"
                   defaultValue={mdp}
@@ -181,21 +131,8 @@ function AjouterCfd() {
                 />
               </div>
             </div>
-            <div className="linecfd">
-              <TextField
-                type="number"
-                id="standard-basic"
-                className="cfd"
-                label="Numéro de téléphone"
-                variant="standard"
-                defaultValue={tel}
-                onChange={(event) => {
-                  handleTel(event);
-                }}
-              />
-            </div>
-            <div className="linecfd">
-              <button className="btncfd" variant="" type="submit">
+            <div className="lineav">
+              <button className="btnav" variant="" type="submit">
                 Créer compte
               </button>
             </div>
@@ -205,4 +142,4 @@ function AjouterCfd() {
     </div>
   );
 }
-export default AjouterCfd;
+export default AjouterVice;

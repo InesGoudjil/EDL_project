@@ -6,6 +6,9 @@
 
   width: 850px;
   height: 400px;
+  /* box-shadow: 10px 15px 5px 1px rgba(0,0,0,0.69);
+-webkit-box-shadow: 10px 15px 5px 1px rgba(0,0,0,0.69);
+-moz-box-shadow: 10px 15px 5px 1px rgba(0,0,0,0.69); */
 
   /* margin-left: auto;
     margin-right: auto;
@@ -21,7 +24,7 @@
     flex-direction: column;
     align-content: center; */
 
-  /* box-shadow: 3px 2px px 1px rgba(255,255,255,0.1); */
+  box-shadow: 3px 2px px 1px rgba(255,255,255,0.1);
 }
 
 .form_login {
@@ -32,7 +35,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(243, 188, 169);
 
   border-radius: 0px 25px 25px 0px;
 }
@@ -58,9 +61,10 @@
   background-color: #072030;
   color: white;
   background-image: url("./books.jpg");
-  background-size: cover;
+  background-size:cover;
 
   border-radius: 25px 0px 0px 25px;
+  box-shadow: 20px 20px ;
 }
 
 .inp {

@@ -4,6 +4,7 @@ import "./LoginPage.css";
 import { useState } from "react";
 
 import { TextField } from "@mui/material";
+import axios from "axios";
 
 function LoginPage() {
   const [nom, setNom] = useState();
@@ -17,6 +18,20 @@ function LoginPage() {
   function handleMdp(event) {
     setMdp(event.target.value);
     console.log(event.target.value);
+  }
+
+  function login(event) {
+    event.preventDefault();
+    axios
+      .get("http://192.168.43.95:5246/Login", {
+        params: {
+          username: nom,
+          password: mdp,
+        },
+      })
+      .then((response) => {
+        console.log(response.data);
+      });
   }
   return (
     <div className="all_loginpage">
@@ -49,12 +64,20 @@ function LoginPage() {
           />
         </div>
         <div className="input_section">
-          <button className="btn" type="submit">
+          <button
+            className="btn"
+            onClick={(event) => {
+              login(event);
+            }}
+            type="submit"
+          >
             Se Connecter
           </button>
         </div>
         <div className="input_section">
-          <a href="" target='_blanc'>Mot de passe oublié ?</a>
+          <a href="" target="_blanc">
+            Mot de passe oublié ?
+          </a>
         </div>
       </form>
     </div>
