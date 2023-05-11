@@ -11,6 +11,7 @@ import Suppression from "./Administrateur/Suppression";
 import ConsulterProfileAdmin from "./Administrateur/ConsulterProfileAdmin";
 import ConsulterProfileVice from "./ViceDoyen/ConsulterProfilVice";
 import HomeCfd from "./PrésidentCFD/HomeCfd";
+import TableDeRes from "./PrésidentCFD/TableDeRes";
 
 function AppLayout() {
   return (
@@ -24,9 +25,10 @@ function AppLayout() {
       {/* <AjouterCfd /> */}
       {/* <Choix/> */}
       {/* <Suppression/> */}
-      <ConsulterProfileAdmin/>
+      {/* <ConsulterProfileAdmin/> */}
       {/* <ConsulterProfileVice/> */}
       {/* <HomeCfd/> */}
+      <TableDeRes/>
     </div>
   );
 }

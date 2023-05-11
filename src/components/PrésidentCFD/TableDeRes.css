@@ -1,0 +1,139 @@
+.allHomecfd {
+  margin: 0;
+  padding: 0;
+}
+.headHomecfd {
+  /* border: 1px solid black; */
+  background: rgb(0, 20, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 32, 1) 0%,
+    rgba(13, 38, 53, 1) 50%,
+    rgba(76, 94, 103, 1) 100%
+  );
+  color: aliceblue;
+  font-size: 25px;
+  height: 8vh;
+  padding: 0.75%;
+}
+.headHomecfd p {
+  font-size: 15px;
+}
+.headbarHomecfd {
+  text-align: center;
+  background-color: #d4dcdf;
+}
+.childcfd {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  vertical-align: middle;
+  /* border-right: 1px solid black; */
+}
+.child1cfd {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  vertical-align: middle;
+  /* border-right: 1px solid #001420;
+      border-left: 1px solid #001420; */
+}
+.headbarHomecfd a {
+  text-decoration: none;
+  color: #001420;
+}
+
+.inputnote {
+  height: 25px;
+  width: 90px;
+  border-radius: 10px 10px;
+  border: 1px solid #f0a577;
+}
+.addlinebtn {
+  width: 200px;
+  height: 80px;
+}
+
+.spe {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  width: 600px;
+  text-align: center;
+}
+.fltre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 2.5%;
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  /* max-width: 900px; */
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+td,
+th {
+    width: 9%;
+  padding-left: 8px;
+}
+thead tr {
+  height: 80px;
+  background: #e9dc93;
+  font-size: 18px;
+}
+tbody tr {
+  height: 60px;
+  border-bottom: 1px solid #e3f1d5;
+}
+td,
+th {
+  text-align: left;
+}
+
+.footerHomecfd {
+  text-align: center;
+  background-color: #d4dcdf;
+
+  height: 150px;
+  margin-top: 10px;
+}
+/* CSS */
+.sub {
+  background-color: #001420;
+  border: 1px solid #f0a577;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sub:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .sub {
+    padding: 10px 30px;
+  }
+}
