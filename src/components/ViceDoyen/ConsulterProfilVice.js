@@ -1,5 +1,5 @@
 import React from "react";
-import "./ConsulterProfile.css";
+import "./ConsulterProfileVice.css";
 
 import { FaUniversity } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
@@ -7,36 +7,36 @@ import { ImLocation } from "react-icons/im";
 import { MdPermPhoneMsg } from "react-icons/md";
 import { BsInfoSquareFill } from "react-icons/bs";
 
-function ConsulterProfile() {
+function ConsulterProfileVice() {
   return (
-    <div className="ceditprofiladmin">
-      <div className="cheadHomeAdmin">
-        <FaUniversity className="cbigIconStylea" />
-        BienVenue Administrateur :)
+    <div className="editprofilvice">
+      <div className="headHomevice">
+        <FaUniversity className="bigIconStylev" />
+        BienVenue Vice-Doyen :)
       </div>
 
-      <div className="cheadbarHomeAdmin">
-        <div className="cchild1a">
-          <MdAccountCircle className="ciconStylea" />
+      <div className="headbarHomevice">
+        <div className="vchild1">
+          <MdAccountCircle className="viconStyle" />
           <a href="#">Mon Profile</a>
         </div>
-        <div className="cchilda">
-          <MdPermPhoneMsg className="ciconStylea" />
+        <div className="vchild">
+          <MdPermPhoneMsg className="viconStyle" />
           <a href="#">Contactez-nous</a>
         </div>
-        <div className="cchilda">
-          <ImLocation className="ciconStylea" />
+        <div className="vchild">
+          <ImLocation className="viconStyle" />
           <a href="#">Localisation</a>
         </div>
-        <div className="cchilda">
-          <BsInfoSquareFill className="ciconStylea" />
+        <div className="vchild">
+          <BsInfoSquareFill className="viconStyle" />
           <a href="#">A Propos</a>
         </div>
       </div>
-      <div className="aeditprofile">
-        <h2 className="etitle">Modifier Votre Profile</h2>
-        <form className="aeditprofilform">
-          <div className="esection">
+      <div className="veditprofile">
+        <h2 className="vtitle">Modifier Votre Profile</h2>
+        <form className="veditprofilform">
+          {/* <div className="esection">
             <label className="element">Nom : </label>
             <input className="profileinfo" placeholder="nom" />
             <button className="op" >Modifier</button>
@@ -65,18 +65,18 @@ function ConsulterProfile() {
             <input className="profileinfo" placeholder="téléphone" />
             <button className="op" >Modifier</button>
             <button className="op" >Confirmer</button>
+          </div> */}
+          <div className="vsection">
+            <label className="velement">Nom d'Utilisateur : </label>
+            <input className="vprofileinfo" placeholder="nom d'utilisateur" />
+            <button className="vop" >Modifier</button>
+            <button className="vop" >Confirmer</button>
           </div>
-          <div className="esection">
-            <label className="element">Nom d'Utilisateur : </label>
-            <input className="profileinfo" placeholder="nom d'utilisateur" />
-            <button className="op" >Modifier</button>
-            <button className="op" >Confirmer</button>
-          </div>
-          <div className="esection">
-            <label className="element">mot de passe : </label>
-            <input className="profileinfo" placeholder="passe" />
-            <button className="op" >Modifier</button>
-            <button className="op" >Confirmer</button>
+          <div className="vsection">
+            <label className="velement">mot de passe : </label>
+            <input className="vprofileinfo" placeholder="passe" />
+            <button className="vop" >Modifier</button>
+            <button className="vop" >Confirmer</button>
           </div>
         </form>
       </div>
@@ -84,4 +84,4 @@ function ConsulterProfile() {
   );
 }
 
-export default ConsulterProfile;
+export default ConsulterProfileVice;

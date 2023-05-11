@@ -1,8 +1,8 @@
-.ceditprofiladmin {
+.editprofilvice {
   margin: 0;
   padding: 0;
 }
-.cheadHomeAdmin {
+.headHomevice {
   /* border: 1px solid black; */
   background: rgb(0, 20, 32);
   background: linear-gradient(
@@ -16,56 +16,57 @@
   height: 8vh;
   padding: 0.75%;
 }
-.cheadbarHomeAdmin {
+.headbarHomevice {
   text-align: center;
   background-color: #d4dcdf;
 }
-.cchilda {
+.vchild {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid black; */
 }
-.cchild1a {
+.vchild1 {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid #001420;
-    border-left: 1px solid #001420; */
+      border-left: 1px solid #001420; */
 }
-.cheadbarHomeAdmin a {
+.headbarHomevice a {
   text-decoration: none;
   color: #001420;
 }
-.aeditprofile {
+.veditprofile {
   width: 75%;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   border-radius: 30px 30px 30px 30px;
   box-shadow: rgba(23, 22, 22, 0.56) 0px 20px 50px 4px;
+  margin-top: 5%;
 }
-.etitle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.vtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.aeditprofilform {
+.veditprofilform {
   /* border: 1px solid black; */
   padding: 1rem 1rem;
 }
-.esection {
+.vsection {
   padding: 0.5rem 0.5rem;
 }
-.element {
+.velement {
   margin: 5px;
 }
-.profileinfo {
+.vprofileinfo {
   margin: 5px;
   height: 30px;
   border-radius: 10px;
 }
-.op {
+.vop {
   margin: 5px;
   height: 35px;
   width: 120px;
@@ -78,13 +79,13 @@
   color: white;
 }
 
-.op:not([disabled]):focus {
+.vop:not([disabled]):focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
 }
 
-.op:not([disabled]):hover {
+.vop:not([disabled]):hover {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);

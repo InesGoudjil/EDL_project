@@ -8,7 +8,9 @@ import AjouterEtu from "./Administrateur/AjouterEtu";
 import AjouterCfd from "./Administrateur/AjouterCfd";
 import Choix from "./Administrateur/Choix";
 import Suppression from "./Administrateur/Suppression";
-import ConsulterProfile from "./Administrateur/ConsulterProfile";
+import ConsulterProfileAdmin from "./Administrateur/ConsulterProfileAdmin";
+import ConsulterProfileVice from "./ViceDoyen/ConsulterProfilVice";
+import HomeCfd from "./PrésidentCFD/HomeCfd";
 
 function AppLayout() {
   return (
@@ -22,7 +24,9 @@ function AppLayout() {
       {/* <AjouterCfd /> */}
       {/* <Choix/> */}
       {/* <Suppression/> */}
-      <ConsulterProfile />
+      <ConsulterProfileAdmin/>
+      {/* <ConsulterProfileVice/> */}
+      {/* <HomeCfd/> */}
     </div>
   );
 }
