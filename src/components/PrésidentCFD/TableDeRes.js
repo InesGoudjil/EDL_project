@@ -48,7 +48,7 @@ function TableDeRes() {
         <div className="addingLine">
           <div className="fltre">
             <Select
-              placeholder="Filtrer"
+              placeholder="Spécialité"
               options={specs}
               className="spe"
               //   defaultValue={users}

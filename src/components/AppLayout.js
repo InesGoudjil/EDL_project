@@ -12,6 +12,7 @@ import ConsulterProfileAdmin from "./Administrateur/ConsulterProfileAdmin";
 import ConsulterProfileVice from "./ViceDoyen/ConsulterProfilVice";
 import HomeCfd from "./PrésidentCFD/HomeCfd";
 import TableDeRes from "./PrésidentCFD/TableDeRes";
+import AffecterEns from "./PrésidentCFD/AffecterEns";
 
 function AppLayout() {
   return (
@@ -28,7 +29,8 @@ function AppLayout() {
       {/* <ConsulterProfileAdmin/> */}
       {/* <ConsulterProfileVice/> */}
       {/* <HomeCfd/> */}
-      <TableDeRes/>
+      {/* <TableDeRes/> */}
+      <AffecterEns/>
     </div>
   );
 }

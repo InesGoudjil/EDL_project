@@ -1,0 +1,59 @@
+.allHomecfd {
+  margin: 0;
+  padding: 0;
+}
+.headHomecfd {
+  /* border: 1px solid black; */
+  background: rgb(0, 20, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 32, 1) 0%,
+    rgba(13, 38, 53, 1) 50%,
+    rgba(76, 94, 103, 1) 100%
+  );
+  color: aliceblue;
+  font-size: 25px;
+  height: 8vh;
+  padding: 0.75%;
+}
+.headHomecfd p {
+  font-size: 15px;
+}
+.headbarHomecfd {
+  text-align: center;
+  background-color: #d4dcdf;
+}
+.childcfd {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  vertical-align: middle;
+  /* border-right: 1px solid black; */
+}
+.child1cfd {
+  display: inline-block;
+  padding: 1rem 3.5rem;
+  vertical-align: middle;
+  /* border-right: 1px solid #001420;
+      border-left: 1px solid #001420; */
+}
+.headbarHomecfd a {
+  text-decoration: none;
+  color: #001420;
+}
+.choens{
+    z-index: 1;
+    position: fixed;
+    width: 200px;
+
+}
+/* .bodyHomeAdmin {
+      border: 1px solid green;
+    } */
+
+/* .footerHomecfd {
+  text-align: center;
+  background-color: #d4dcdf;
+
+  height: 150px;
+  margin-top: 10px;
+} */
