@@ -1,5 +1,5 @@
 import React from "react";
-import "./ConsulterProfileAdmin.css";
+import "./ConsulterProfileEns.css";
 
 import { FaUniversity } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
@@ -8,12 +8,12 @@ import { MdPermPhoneMsg } from "react-icons/md";
 import { BsInfoSquareFill } from "react-icons/bs";
 import { TextField } from "@mui/material";
 
-function ConsulterProfileAdmin() {
+function ConsulterProfileEns() {
   return (
     <div className="ceditprofiladmin">
       <div className="cheadHomeAdmin">
         <FaUniversity className="cbigIconStylea" />
-        BienVenue Administrateur :)
+        BienVenue Enseignant :)
       </div>
 
       <div className="cheadbarHomeAdmin">
@@ -87,6 +87,26 @@ function ConsulterProfileAdmin() {
                 readOnly: true,
               }}
             />
+            <TextField
+              id="outlined-read-only-input"
+              label="Spécialité"
+              defaultValue="TLSI"
+              className="chann"
+              InputProps={{
+                readOnly: true,
+              }}
+            />
+          </div>
+          <div className="chan">
+          <TextField
+              id="outlined-read-only-input"
+              label="Module"
+              defaultValue="EDL"
+              className="chann"
+              InputProps={{
+                readOnly: true,
+              }}
+            />
           </div>
           <div className="chan">
             <TextField
@@ -105,7 +125,7 @@ function ConsulterProfileAdmin() {
             />
           </div>
           <div className="submiteu">
-            <button className="subbb">Enregistrer</button>
+            <button type="submit" className="subbb">Enregistrer</button>
           </div>
         </form>
       </div>
@@ -113,4 +133,4 @@ function ConsulterProfileAdmin() {
   );
 }
 
-export default ConsulterProfileAdmin;
+export default ConsulterProfileEns;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./ConsulterProfileAdmin.css";
+import "./ConsulterProfileCond.css";
 
 import { FaUniversity } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
@@ -8,12 +8,12 @@ import { MdPermPhoneMsg } from "react-icons/md";
 import { BsInfoSquareFill } from "react-icons/bs";
 import { TextField } from "@mui/material";
 
-function ConsulterProfileAdmin() {
+function ConsulterProfileCond() {
   return (
     <div className="ceditprofiladmin">
       <div className="cheadHomeAdmin">
         <FaUniversity className="cbigIconStylea" />
-        BienVenue Administrateur :)
+        BienVenue Condidat :)
       </div>
 
       <div className="cheadbarHomeAdmin">
@@ -87,6 +87,15 @@ function ConsulterProfileAdmin() {
                 readOnly: true,
               }}
             />
+            <TextField
+              id="outlined-read-only-input"
+              label="Spécialité"
+              defaultValue="TLSI"
+              className="chann"
+              InputProps={{
+                readOnly: true,
+              }}
+            />
           </div>
           <div className="chan">
             <TextField
@@ -113,4 +122,4 @@ function ConsulterProfileAdmin() {
   );
 }
 
-export default ConsulterProfileAdmin;
+export default ConsulterProfileCond;

@@ -1,8 +1,8 @@
-.allHomecfd {
+.allHomeEns {
   margin: 0;
   padding: 0;
 }
-.headHomecfd {
+.headHomeEns {
   /* border: 1px solid black; */
   background: rgb(0, 20, 32);
   background: linear-gradient(
@@ -16,89 +16,65 @@
   height: 8vh;
   padding: 0.75%;
 }
-.headHomecfd p {
+.headHomeEns p {
   font-size: 15px;
 }
-.headbarHomecfd {
+.headbarHomeEns {
   text-align: center;
   background-color: #d4dcdf;
 }
-.childcfd {
+.childens {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid black; */
 }
-.child1cfd {
+.child1ens {
   display: inline-block;
   padding: 1rem 3.5rem;
   vertical-align: middle;
   /* border-right: 1px solid #001420;
-      border-left: 1px solid #001420; */
+    border-left: 1px solid #001420; */
 }
-.headbarHomecfd a {
+.headbarHomeEns a {
   text-decoration: none;
   color: #001420;
 }
-.fltre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-.choens {
-  z-index: 1;
-  position: fixed;
-  width: 200px;
-}
+
 /* .bodyHomeAdmin {
-      border: 1px solid green;
-    } */
+    border: 1px solid green;
+  } */
 
-/* .footerHomecfd {
-  text-align: center;
-  background-color: #d4dcdf;
+.bigIconStyleens {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
 
-  height: 150px;
-  margin-top: 10px;
-} */
-.select {
-  /* border: 1px solid black; */
+.aff {
+  margin-top: 3.5%;
+  width: 60%;
 }
-.select select {
-  height: 40px;
-  width: 240px;
-  border-top: none;
-  border-radius: 5px 10px;
-  background-color: #ece3af;
-  color: #001420;
-  font-size: medium;
-  cursor: pointer;
-}
-.afct {
-  height: 40px;
-  width: 150px;
+.subb {
+  margin: 2%;
+  height: 50px;
+  width: 135px;
   border: none;
-  border-radius: 10px;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 20, 32, 1) 0%,
-    rgba(13, 38, 53, 1) 50%,
-    rgba(76, 94, 103, 1) 100%
-  );
-  font-size: 18px;
+  border-radius: 30px;
+  font-size: medium;
   transition: box-shadow 0.2s ease-in-out;
   cursor: pointer;
-  color: white;
+  background-color: #d4dcdf;
+  color: black;
 }
-
-.afct:not([disabled]):focus {
+.subb:not([disabled]):focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
 }
 
-.afct:not([disabled]):hover {
+.subb:not([disabled]):hover {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
     -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
     0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);

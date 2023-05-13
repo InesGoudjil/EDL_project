@@ -13,6 +13,13 @@ import ConsulterProfileVice from "./ViceDoyen/ConsulterProfilVice";
 import HomeCfd from "./PrésidentCFD/HomeCfd";
 import TableDeRes from "./PrésidentCFD/TableDeRes";
 import AffecterEns from "./PrésidentCFD/AffecterEns";
+import HomeEns from "./Enseignant/HomeEns";
+import ConsulterProfileCond from "./Candidat/ConsulterProfileCond";
+import ConsulterProfileEns from "./Enseignant/ConsulterProfileEns";
+import ConsulterProfileCfd from "./PrésidentCFD/ConsulterProfileCfd";
+import HomeCond from "./Candidat/HomeCond";
+import Res from "./Candidat/Res";
+import Correction from "./Enseignant/Correction";
 
 function AppLayout() {
   return (
@@ -30,7 +37,14 @@ function AppLayout() {
       {/* <ConsulterProfileVice/> */}
       {/* <HomeCfd/> */}
       {/* <TableDeRes/> */}
-      <AffecterEns/>
+      {/* <AffecterEns/> */}
+      {/* <HomeEns/> */}
+      {/* <ConsulterProfileCond/> */}
+      {/* <ConsulterProfileEns/> */}
+      {/* <ConsulterProfileCfd/> */}
+      {/* <HomeCond/> */}
+      {/* <Res/> */}
+      <Correction/>
     </div>
   );
 }
