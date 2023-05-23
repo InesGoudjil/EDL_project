@@ -3,12 +3,13 @@ import "./HomeVice.css";
 import { MdAccountCircle } from "react-icons/md";
 import { MdPermPhoneMsg } from "react-icons/md";
 import { ImLocation } from "react-icons/im";
-import {BsFillCalendar2DateFill} from "react-icons/bs";
-import {IoIosPeople} from "react-icons/io";
-import {MdGesture} from "react-icons/md";
-import {BsInfoSquareFill} from "react-icons/bs";
-import {FaSlideshare} from "react-icons/fa";
-import {FaUniversity} from "react-icons/fa";
+import { BsFillCalendar2DateFill } from "react-icons/bs";
+import { IoIosPeople } from "react-icons/io";
+import { MdGesture } from "react-icons/md";
+import { BsInfoSquareFill } from "react-icons/bs";
+import { FaSlideshare } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
+import { TextField } from "@mui/material";
 
 function HomeVice() {
   return (
@@ -19,7 +20,7 @@ function HomeVice() {
     //   </HeadSide>
     <div className="allHomeVice">
       <div className="headHomeVice">
-        <FaUniversity className="bigIconStylev"/>
+        <FaUniversity className="bigIconStylev" />
         {/* <img className="logo_header" src={logo} alt="logo" /> */}
         BienVenue Vice-Doyen :)
       </div>
@@ -49,26 +50,46 @@ function HomeVice() {
           Partage des Informations
           <FaSlideshare className="iconStyle1v" />
         </div>
-        <div className="gesv">
-          <div className="herev">
-            <BsFillCalendar2DateFill className="iconStylev"/>
-            <a href="#">Date du concours</a>
-          </div>
-          <div className="herev">
-            <ImLocation className="iconStylev"/>
-            <a href="#">Lieu du concours</a>
-          </div>
-          <div className="herev">
-            <IoIosPeople className="iconStylev"/>
-            <a href="#">Enseignants résponsables</a>
-          </div>
-          <div className="herev">
-            <MdGesture className="iconStylev"/>
-            <a href="#">Gestion des codes</a>
+        <div className="herevv">
+          <BsFillCalendar2DateFill className="iconStylev" />
+          <label>
+            Date du concours
+            {/* <textarea name="postContent" rows={4} cols={40}></textarea> */}
+          </label>
+          <div>
+            <TextField type="date" className="mydatev"></TextField>
           </div>
         </div>
+        <div className="gesv">
+          <div className="herev">
+            <ImLocation className="iconStylev" />
+            <label>
+              Lieu du concours
+              <textarea name="postContent" rows={4} cols={40}></textarea>
+            </label>
+          </div>
+          <div className="herev">
+            <IoIosPeople className="iconStylev" />
+            <label>
+              Enseignants résponsables
+              <textarea name="postContent" rows={4} cols={40}></textarea>
+            </label>
+          </div>
+          <div className="herev">
+            <MdGesture className="iconStylev" />
+            <label>
+              Gestion des codes
+              <textarea name="postContent" rows={4} cols={40}></textarea>
+            </label>
+          </div>
+        </div>
+        <div className="gesv">
+          <button className="submitingInfo" type="submit">
+            Partager
+          </button>
+        </div>
       </div>
-      <div className="footerHomeVice">this is footer</div>
+      {/* <div className="footerHomeVice">this is footer</div> */}
     </div>
   );
 }

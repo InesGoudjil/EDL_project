@@ -96,19 +96,70 @@
     rgba(76, 94, 103, 1) 100%
   );
   border-radius: 10px 10px 10px 10px;
-  margin: 20px;
+  margin: 10px;
   font-size: 17.5px;
   color: white;
   width: 400px;
 }
-.herev a {
-  text-decoration: none;
-  color: white;
-}
+
 .footerHomeVice {
   text-align: center;
   background-color: #d4dcdf;
 
   height: 150px;
   margin-top: 10px;
+}
+
+.submitingInfo {
+  margin: 2%;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: #001420;
+  color: white;
+}
+.submitingInfo:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(161, 159, 158, 0.5);
+}
+
+.submitingInfo:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(55, 51, 52, 0.5),
+    0.125rem 0.125rem 1rem rgba(55, 51, 52, 0.5);
+}
+
+.mydatev {
+  background-color: white;
+  border-radius: 10px 10px;
+  width: 400px;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+.herevv {
+  padding: 1rem 3.5rem;
+  vertical-align: middle;
+  padding: 1rem 1rem;
+  /* background-color: #001420; */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 32, 1) 0%,
+    rgba(13, 38, 53, 1) 50%,
+    rgba(76, 94, 103, 1) 100%
+  );
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17.5px;
+  color: white;
+  width: 400px;
+  text-align: center;
 }

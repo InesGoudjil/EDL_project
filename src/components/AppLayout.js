@@ -44,7 +44,8 @@ function AppLayout() {
       {/* <ConsulterProfileCfd/> */}
       {/* <HomeCond/> */}
       {/* <Res/> */}
-      <Correction/>
+      {/* <Correction/> */}
+      <HomeVice/>
     </div>
   );
 }
