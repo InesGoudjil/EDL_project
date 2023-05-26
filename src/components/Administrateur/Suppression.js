@@ -12,7 +12,7 @@ import { AiFillDelete } from "react-icons/ai";
 function Suppression() {
   const users = [
     { value: "ens", label: "Comptes des Enseignants" },
-    { value: "etu", label: "Comptes des Etudiants" },
+    { value: "etu", label: "Comptes des Candidats" },
     { value: "vice", label: "Comptes des Vice-Doyens" },
     { value: "cfd", label: "Comptes des Présidents CFD" },
   ];

@@ -194,6 +194,7 @@ function AffecterEns() {
                 <button type="submit" className="afct">Affecter</button>
               </td>
             </tr>
+           
             <tr>
               <td>986543</td>
               <td>
@@ -260,138 +261,7 @@ function AffecterEns() {
                 <button type="submit" className="afct">Affecter</button>
               </td>
             </tr>
-            <tr>
-              <td>986543</td>
-              <td>
-                {/* <Select
-                  placeholder="Choisir"
-                  options={enseignants}
-                  className="choens"
-                /> */}
-                <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-              <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-                <button type="submit" className="afct">Affecter</button>
-              </td>
-            </tr>
-            <tr>
-              <td>986543</td>
-              <td>
-                {/* <Select
-                  placeholder="Choisir"
-                  options={enseignants}
-                  className="choens"
-                /> */}
-                <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-              <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-                <button type="submit" className="afct">Affecter</button>
-              </td>
-            </tr>
-            <tr>
-              <td>986543</td>
-              <td>
-                {/* <Select
-                  placeholder="Choisir"
-                  options={enseignants}
-                  className="choens"
-                /> */}
-                <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-              <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-                <button type="submit" className="afct">Affecter</button>
-              </td>
-            </tr>
-            <tr>
-              <td>986543</td>
-              <td>
-                {/* <Select
-                  placeholder="Choisir"
-                  options={enseignants}
-                  className="choens"
-                /> */}
-                <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-              <div class="select">
-                  <select>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
-                    <option value="Option 4">Option 4</option>
-                    <option value="Option 5">Option 5</option>
-                  </select>
-                </div>
-              </td>
-              <td>
-                <button type="submit" className="afct">Affecter</button>
-              </td>
-            </tr>
+            
           </tbody>
         </table>
       </div>

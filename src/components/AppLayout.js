@@ -24,7 +24,7 @@ import Correction from "./Enseignant/Correction";
 function AppLayout() {
   return (
     <div>
-      {/* <Container /> */}
+      <Container />
       {/* <HomeAdmin /> */}
       {/* <HomeVice/> */}
       {/* <AjouterEns/> */}
@@ -45,7 +45,7 @@ function AppLayout() {
       {/* <HomeCond/> */}
       {/* <Res/> */}
       {/* <Correction/> */}
-      <HomeVice/>
+      {/* <HomeVice/> */}
     </div>
   );
 }

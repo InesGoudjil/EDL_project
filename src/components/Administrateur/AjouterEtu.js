@@ -76,7 +76,7 @@ function AjouterEtu() {
               <ImUserPlus className="iconat" />
             </div>
             <div className="compat">
-              <p className="pat">Ajouter Etudiant</p>
+              <p className="pat">Ajouter Candidat</p>
             </div>
             <div className="lineat">
               <div className="atsection">

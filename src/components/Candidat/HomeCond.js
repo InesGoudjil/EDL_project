@@ -14,7 +14,7 @@ function HomeCond() {
     <div className="allHomeAdmin">
       <div className="headHomeAdmin">
         <FaUniversity className="bigIconStylea"/>
-        BienVenue Condidat :)
+        BienVenue Candidat :)
       </div>
 
       <div className="headbarHomeAdmin">
@@ -42,6 +42,12 @@ function HomeCond() {
           <a href="#">Consulter la Liste des Résultats</a>
           <ImFileText className="iconStyle1a" />
         </div>
+        <div className="titlea">
+          {/* <ImFileText className="iconStylea" /> */}
+          <a href="#">Consulter les Informations partagées par le ViceDoyen</a>
+          {/* <ImFileText className="iconStyle1a" /> */}
+        </div>
+        
         
       </div>
     </div>

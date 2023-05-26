@@ -60,7 +60,7 @@ function Choix() {
           </div>
         </div>
       </div>
-      <div className="footerChoixAdmin">this is footer</div>
+      {/* <div className="footerChoixAdmin">this is footer</div> */}
     </div>
   );
 }

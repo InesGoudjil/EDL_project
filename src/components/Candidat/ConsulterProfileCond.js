@@ -13,7 +13,7 @@ function ConsulterProfileCond() {
     <div className="ceditprofiladmin">
       <div className="cheadHomeAdmin">
         <FaUniversity className="cbigIconStylea" />
-        BienVenue Condidat :)
+        BienVenue Candidat :)
       </div>
 
       <div className="cheadbarHomeAdmin">
@@ -81,7 +81,7 @@ function ConsulterProfileCond() {
             <TextField
               id="outlined-read-only-input"
               label="Téléphone"
-              defaultValue="+213 7 79 93 98 33"
+              defaultValue="+213 x xx xx xx xx"
               className="chann"
               InputProps={{
                 readOnly: true,
@@ -102,14 +102,14 @@ function ConsulterProfileCond() {
               required
               id="outlined-required"
               label="Nom d'Utilisateur"
-              defaultValue="pottato gurl"
+              defaultValue="I am a user"
               className="chann"
             />
             <TextField
               required
               id="outlined-required"
               label="Mot de Passe"
-              defaultValue="aa123456789"
+              defaultValue="xyz010203"
               className="chann"
             />
           </div>

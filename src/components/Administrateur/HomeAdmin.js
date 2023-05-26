@@ -63,7 +63,7 @@ function HomeAdmin() {
           </div>
         </div>
       </div>
-      <div className="footerHomeAdmin">this is footer</div>
+      {/* <div className="footerHomeAdmin">this is footer</div> */}
     </div>
   );
 }

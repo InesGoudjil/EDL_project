@@ -59,7 +59,7 @@ function HomeCfd() {
           </div>
         </div>
       </div>
-      <div className="footerHomecfd">this is footer</div>
+      {/* <div className="footerHomecfd">this is footer</div> */}
     </div>
   );
 }

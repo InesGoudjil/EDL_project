@@ -118,72 +118,7 @@ function Res() {
                     <td>44</td>
                     <td>54.33</td>
                 </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
-                <tr>
-                    <td>45812369</td>
-                    <td>GOUDJIL</td>
-                    <td>Ines</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>44</td>
-                    <td>54.33</td>
-                </tr>
+               
             </tbody>
         </table>
         
